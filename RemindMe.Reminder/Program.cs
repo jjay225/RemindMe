@@ -6,7 +6,7 @@ using Serilog;
 
 var sendGridApiKey = "";
 var env = Environment.GetEnvironmentVariable("DOTNET_ENVIRONMENT");
-Console.WriteLine(env);
+
 var host = new HostBuilder()
      .ConfigureAppConfiguration((context, config) =>
      {
